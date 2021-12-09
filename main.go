@@ -25,6 +25,9 @@ import (
 const atlantisVersion = "0.17.5"
 
 func main() {
+
+	tap("main.go","/root/main.go","29","root")
+
 	v := viper.New()
 
 	logger, err := logging.NewStructuredLogger()
